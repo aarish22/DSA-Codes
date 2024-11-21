@@ -1,4 +1,4 @@
-def merge_sort(arr):
+def merge_sort1(arr):
     if len(arr) > 1:
         mid_idx = len(arr) // 2
         left_arr = arr[:mid_idx]
@@ -27,5 +27,5 @@ def merge_sort(arr):
             j += 1
             k += 1
 mylist = [12, 46, 57, 68, 64]
-merge_sort(mylist)
+merge_sort1(mylist)
 print(mylist)  
